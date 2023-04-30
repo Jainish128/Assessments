@@ -1,0 +1,706 @@
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+body
+{
+    font-family: arial;
+}
+
+/* ========== Header ========== */
+header
+{
+    width: 100%;
+    /* 100 View Height aapva */
+    height: 100vh;
+    background: url(img/Header\ BG\ img.jpg);
+    background-repeat: round;
+    display: flex;
+}
+/* ===== Left-Header -> START ===== */
+.left-header
+{
+    width: 22%;
+    height: 100vh;
+    /* Left Header no Black color Transparent karva maate */
+    background-color: rgba(0,0,0,0.4);
+    position: fixed;
+}
+/* ========== Logo ========== */
+.logo
+{
+    width: 100%;
+    height: 250px;
+    /* background-color: darkblue; */
+    /* Sub-Divison ne Set karva */
+    position: relative;
+}
+/* ---------- Border - 1 ---------- */
+.border-1
+{
+    width: 60%;
+    height: 50%;
+    /* background-color: blue; */
+    border: 1px solid white;
+    /* position set karva */
+    position: absolute;
+    top: 25%;
+    left: 20%;
+}
+/* ---------- Border - 2 ---------- */
+.border-2
+{
+    width: 60%;
+    height: 50%;
+    /* background-color: green; */
+    /* Border karva */
+    border: 1px solid white;
+    position: absolute;
+    top: 28%;
+    left: 22%;
+}
+/* ---------- Company-Name ---------- */
+.company_name
+{
+    position: absolute;
+    top: 39%;
+    left: 37%;
+    color: white;
+    text-align: center;
+    font-size: 28px;
+    /* Letter ma Space karva */
+    letter-spacing: 1px;
+}
+/* ========== Nav ========== */
+nav
+{
+    width: 100%;
+    height: 200px;
+    /* background-color: darkcyan; */
+    display: flex;
+}
+/* ---------- Un-Order List ---------- */
+nav ul
+{
+    width: 65%;
+    height: inherit;
+    /* background-color: green; */
+    /* text ne Right ma Lavva */
+    text-align: right;
+}
+/* ---------- List ---------- */
+nav ul li
+{
+    width: 100%;
+    height: 40px;
+    /* height ma Center ma Lavva */
+    line-height: 40px;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+}
+/* ---------- Anchor Link ---------- */
+nav ul li a
+{
+    color: white;
+}
+/* ----- Hover on Anchor Link ----- */
+nav ul li a:hover
+{
+    /* Font ni Niche Underline Lavva */
+    text-decoration: underline;
+}
+/* -------------------------- */
+.square_box
+{
+    width: 35%;
+    /* height aapva */
+    height: inherit;
+    /* background-color: red; */
+}
+.square_box i
+{
+    width: 100%;
+    height: 40px;
+    /* background-color: red; */
+    color: white;
+    line-height: 40px;
+    /* Left side thi padding aapva */
+    padding-left: 20px;
+}
+
+
+/* ========== Icons ========== */
+.icons
+{
+    width: 100%;
+    height: 80px;
+    margin-top: 115px;
+    /* background-color: darkorchid; */
+    /* Icons ne Horizontaly Lavva */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* Icons ni vachhe Space Lavva */
+    gap: 15px;
+}
+/* ----- Icons - Anchor Link ----- */
+.icons a
+{
+    color: black;
+}
+/* ----- Icons - Anchor - I ----- */
+.icons a i
+{
+    width: 35px;
+    height: 35px;
+    background-color: white;
+    /* border ne Radius Apva */
+    border-radius: 5px;
+    text-align: center;
+    line-height: 35px;
+    font-size: 18px;
+}
+/* ----- Hover on Icons - Anchor ----- */
+.icons a:hover
+{
+    /* font color white karva */
+    color: white;
+    transition: 0.3s ease;
+}
+/* ----- Hover on Icons - A - I ----- */
+.icons a i:hover
+{
+    background-color: black;
+    /* Hover Effect Smooth Karavva */
+    transition: 0.5s ease;
+}
+
+/* ----- Copyright_Notice ----- */
+.copyrite_notice
+{
+    width: 100%;
+    height: 100px;
+    /* background-color: darkgoldenrod; */
+    color: white;
+    font-size: 15px;
+    /* Center ma Lavva */
+    text-align: center;
+    padding-top: 25px;
+    line-height: 30px;
+}
+/* ===== Left-Header -> END ===== */
+
+
+
+
+
+/* ===== Right-Header -> START ===== */
+
+.right-header
+{
+    width: 78%;
+    /* 100% Viewport ma Height Lavva */
+    height: 100vh;
+    position: relative;
+}
+
+.introduce-main
+{
+    width: 37%;
+    height: 45%;
+    /* background color ne Tarnsparent karva maate */
+    background-color: rgba(255, 255, 255, 0.3);
+    border: 1px solid white;
+    position: absolute;
+    left: 1020px;
+    top: 200px;
+}
+
+.introduce
+{
+    width: 76%;
+    height: 100%;
+    /* margin aapva */
+    margin: 0% 12%;
+    /* background-color: white; */
+}
+
+.introduce-title
+{
+    width: 100%;
+    /* height: 90px; */
+    height: 30%;
+    line-height: 100px;
+    color: rgb(0, 183, 255);
+    /* Text ne Shadow apva */
+    text-shadow: 0 0 0.5px rgb(0, 183, 255);
+    /* background-color: green;*/
+    font-size: 20px;
+    /* Text me Capital ma Show karavva */
+    text-transform: uppercase;
+}
+.introduce-para
+{
+
+    width: 100%;
+    height: 70%;
+    /* background-color: blue; */
+    color: #666;
+    font-size: 16px;
+    /* Line ni Vachhe Space lavva */
+    line-height: 25px;
+}
+
+/* ===== Right-Header -> END ===== */
+
+
+
+
+
+
+
+
+
+
+/* ========== About -> START ========== */
+
+.about
+{
+    width: 100%;
+    /* height aapva */
+    height: 550px;
+    /* background-color: red; */
+    display: flex;
+}
+/* ---------- Left-Header ----------  */
+.left-about
+{
+    width: 22%;
+    /* Main div jetli same height aapva */
+    height: inherit;
+    background-color: #666;
+}
+/* -------- Right-About-Main -------- */
+.right-about-main
+{
+    width: 78%;
+    /* Main div jetli same height aapva */
+    height: inherit;
+    /* background-color: darkblue; */
+}
+/* ---------- Right-About-Sub ---------- */
+.right-about-sub
+{
+    width: 75%;
+    height: inherit;
+    /* margin aapva */
+    margin: 0% 16% 0% 9%;
+    /* background-color: red; */
+    display: flex;
+}
+/* ---------- About Us ---------- */
+.about_us
+{
+    width: 43%;
+     /* Main div jetli same height aapva */
+    height: inherit;
+    /* background-color: yellowgreen; */
+}
+.about-icon
+{
+    width: 100%;
+    height: 150px;
+    /* background-color: green; */
+    color: #369;
+    /* Font ni Size Increase karva */
+    font-size: 90px;
+    padding-top: 40px;
+}
+.about-title
+{
+    width: 100%;
+    height: 50px;
+    /* background-color: aquamarine; */
+    color: #369;
+    font-size: 20px;
+    /* Text ne Shadow aapva */
+    text-shadow: 0 0 1px rgb(48, 48, 200);
+}
+.about-para
+{
+    width: 100%;
+    height: 350px;
+    /* background-color: cadetblue; */
+    color: #707172;
+    font-size: 16px;
+    line-height: 25px;
+    /* Font ne style badalva */
+    font-family: "Open Sans",Arial,Helvetica,sans-serif;
+}
+
+.about_us:last-child
+{
+    /* left thi Margin aapva */
+    margin-left: 14%;
+}
+/* ========== About -> END ========== */
+
+
+
+
+
+
+
+
+
+
+/* ======= Our Work -> START ======= */
+
+.our_work-main
+{
+    width: 100%;
+    height: 600px;
+    /* background-color: red; */
+    /* Sub Div ne Horizontally set karva */
+    display: flex;
+}
+
+.our_work-left
+{
+    width: 22%;
+    height: inherit;
+    /* Background ma Color Apply karva */
+    background-color: #666;
+}
+
+
+.our_work-right
+{
+    width: 78%;
+    height: inherit;
+    /* background-color: green; */
+    /* Sub Div ne move karavva Main div ne Position - Relative aapi */
+    position: relative;
+}
+.our_work-border-1
+{
+    width: 90%;
+    height: 450px;
+    border: 1px solid #cdcecf;
+    /* Sub Div ni position Move karva position-Absolute aapi  */
+    position: absolute;
+    top: 10px;
+    left: 5%;
+}
+.our_work-border-2
+{
+    width: 90%;
+    height: 450px;
+    /* Border ni effect add karva */
+    border: 1px solid #cdcecf;
+    position: absolute;
+    top: 20px;
+    left: 6%;
+}
+
+.our_work
+{
+    width: 80%;
+    /* height ni size define karva */
+    height: 350px;
+    /* background-color: yellowgreen; */
+    position: absolute;
+    top: 60px;
+    left: 10%;
+}
+.our_work-title
+{
+    width: 100%;
+    height: 40px;
+    /* background-color: red; */
+    /* font ne color aapva */
+    color: #069;
+    font-size: 25px;
+    text-shadow: 0 0 0.5px #069;
+}
+.our_work-images
+{
+    width: 100%;
+    height: 310px;
+    /* background-color: blue; */
+    display: flex;
+    /* Space Between thi Full width ma Content ni Center ma Space Create Karva */
+    justify-content: space-between;
+}
+.work-img
+{
+    /* Width define kari */
+    width: 23.5%;
+    height: inherit;
+    cursor: pointer;
+}
+
+
+/* ======= Our Work -> END =======  */
+
+
+/* ===== Our-Clients -> START ===== */
+
+.our_clients-main
+{
+    width: 100%;
+    height: 500px;
+    /* background-color: red; */
+    /* sub div ne Horizontally set karva */
+    display: flex;
+}
+.our_clients-left
+{
+    width: 22%;
+    height: inherit;
+    /* Background ma Color Apply karva */
+    background-color: #666;
+}
+
+.our_clients-right
+{
+    width: 78%;
+    /* Main div jetli Height set karva */
+    height: inherit;
+    /* background-color: green; */
+}
+.our_clients-title
+{
+    width: 84%;
+    height: 50px;
+    /* Margin aapva */
+    margin: 0% 8%;
+    /* background-color: red; */
+    color: #069;
+    font-size: 28px;
+    text-shadow: 0 0 0.5px #069;
+}
+.our_clients-para
+{
+    width: 84%;
+    height: 120px;
+    margin: 0% 8%;
+    /* background-color: greenyellow; */
+    color: #707172;
+    font-size: 18px;
+    line-height: 28px;
+    /* Font ne style badalva */
+    font-family: "Open Sans",Arial,Helvetica,sans-serif;
+}
+.our_clients-images
+{
+    width: 84%;
+    height: 250px;
+    margin: 0% 8%;
+    /* background-color: darkcyan; */
+    display: flex;
+    /* Wrap thi Extra width vado content ani niche show thase */
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.our_clients-image-border
+{
+    width: 23.5%;
+    height: 100px;
+    cursor: pointer;
+    /* Border aapva */
+    border: 1px solid #cdcecf;
+}
+.our_clients-image-border img
+{
+    width: 70%;
+    height: 60px;
+    /* Margin aapva */
+    margin: 20px 15%;
+}
+/* ===== Our-Clients -> END ===== */
+
+
+/* ===== Talk to Us -> START ===== */
+
+.talk_to_us-main
+{
+    width: 100%;
+    height: 400px;
+    /* background-color: red; */
+    display: flex;
+}
+
+.talk_to_us-left
+{
+    width: 22%;
+    height: inherit;
+    /* Background ma Color Apply karva */
+    background-color: #666;
+}
+
+.talk_to_us-right
+{
+    width: 78%;
+    /* Main div jetli Height set karva */
+    height: inherit;
+    /* background-color: green; */
+    position: relative;
+    display: flex;
+}
+.talk_to_us_right-left
+{
+    width: 60%;
+    height: inherit;
+    /* background-color: darkcyan; */
+}
+.talk_to_us-border-1
+{
+    width: 45%;
+    height: 300px;
+    border: 1px solid #cdcecf;
+    /* Sub Div ni position Move karva position-Absolute aapi  */
+    position: absolute;
+    top: 10px;
+    left: 5%;
+}
+.talk_to_us-border-2
+{
+    width: 45%;
+    height: 300px;
+    /* Border ni effect add karva */
+    border: 1px solid #cdcecf;
+    position: absolute;
+    top: 20px;
+    left: 6%;
+}
+.talk_to_us
+{
+    width: 35%;
+    /* height ni size define karva */
+    height: 250px;
+    /* background-color: yellowgreen; */
+    position: absolute;
+    top: 40px;
+    left: 10%;
+}
+.talk_to_us-title
+{
+    width: 84%;
+    height: 50px;
+    margin-top: 10px;
+    /* background-color: red; */
+    color: #069;
+    font-size: 24px;
+    text-shadow: 0 0 0.5px #069;
+}
+.talk_to_us-para
+{
+    width: 100%;
+    height: auto;
+    /* background-color: orange; */
+    color: #707172;
+    font-size: 18px;
+    line-height: 28px;
+    /* Font ne style badalva */
+    font-family: "Open Sans",Arial,Helvetica,sans-serif;
+}
+
+
+.talk_to_us_right-right
+{
+    width: 30%;
+    height: inherit;
+    /* background-color: darkblue; */
+}
+
+form
+{
+    /* width aapva */
+    width: 100%;
+    height: inherit;
+}
+
+form input[type=text]
+{
+    width: 80%;
+    height: 30px;
+    margin: 15px 10%;
+    /* background-color: red; */
+    /* All borders remove karva */
+    border: none;
+    border-bottom: 1px solid #666;
+}
+
+
+form input[type=email]
+{
+    width: 80%;
+    height: 30px;
+    margin: 15px 10%;
+    /* background-color: green; */
+    border: none;
+    /* Only Bottom side border aapva */
+    border-bottom: 1px solid #666;
+}
+form input:focus
+{
+    outline: none;
+    border-bottom: 1px solid skyblue;
+    /* Caret no color change karva */
+    caret-color: red;
+}
+
+form textarea
+{
+    width: 80%;
+    height: 100px;
+    /* Margin aapva */
+    margin: 15px 10%;
+    /* background-color: green; */
+    border: none;
+    border-bottom: 1px solid #666;
+}
+form textarea:focus
+{
+    /* Outline remove karav badhi baaju thi */
+    outline: none;
+    border-bottom: 1px solid skyblue;
+    caret-color: red;
+}
+form textarea::placeholder
+{
+    /* Font ni Style change karva */
+    font-family: arial;
+    font-size: 14px;
+    font-weight: 100;
+}
+
+form input[type=submit]
+{
+    width: 70px;
+    height: 30px;
+    margin: 10px 0% 0px 70%;
+    /* Background ne Transparent karva */
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #666;
+    font-size: 15px;
+    font-family: arial;
+}
+form input[type=submit]:hover
+{
+    cursor: pointer;
+    background-color: #707172;
+    color: white;
+    /* Hover effect ne smooth karva */
+    transition: 0.3s ease;
+}
+/* ===== Talk to Us -> END ===== */
+
+
