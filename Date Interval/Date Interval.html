@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <title> Date Interval </title>
+    <link rel="stylesheet" href="bootstrap-5.0.2-dist/css/">
+    <link rel="stylesheet" href="Date Interval.css">
+</head>
+<body>
+
+    <table>
+        <tr align="center">
+            <th colspan="2" class="heading"> Date Interval </th>
+        </tr>
+        <tr>
+            <td class="ft"> From : </td>
+            <td><input type="date" id="fromDate" class="form-control"></td>
+        </tr>
+        <tr>
+            <td class="ft"> To : </td>
+            <td><input type="date" id="toDate" class="form-control"></td>
+        </tr>
+        <tr align="center">
+            <td colspan="2"> 
+                <input type="submit" value="Calculate" id="calculate" onclick="calculateDataDetails()">
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <div id="result" class="alert alert-info" style="display: none;"> </div>
+            </td>
+        </tr>
+    </table>
+
+    <script src="Date Internal.js"></script>
+    
+</body>
+</html>

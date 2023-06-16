@@ -1,0 +1,50 @@
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: arial;
+}
+body
+{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightsteelblue;
+}
+
+.heading
+{
+    font-size: 28px;
+    font-weight: lighter;
+    border-bottom: 1px solid rgb(0, 183, 255);
+}
+.ft
+{
+    font-weight: bold;
+    padding-top: 10px;
+}
+/* .date1, .date2 */
+input[type=date]
+{
+    width: 150px;
+    height: 30px;
+    padding: 5px 10px;
+    margin: 10px 0 0 10px;
+    font-size: 15px;
+    cursor: pointer;
+}
+#calculate
+{
+    width: 100px;
+    height: 30px;
+    margin: 10px 0 10px 0;
+    background-color: rgb(0, 149, 207);
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    font-size: 15px;
+    cursor: pointer;
+}
