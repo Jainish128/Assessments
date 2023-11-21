@@ -1,0 +1,44 @@
+
+
+.main_accordion
+{
+  box-shadow: 0 0 5px black;
+}
+
+.quetion
+{
+  background: silver;
+  display: flex;
+  width: 100%;
+  height: 50px;
+  cursor: pointer;
+  border-bottom: 1px solid grey;
+}
+.quetion p
+{
+  width: 95%;
+  height: inherit;
+  padding: 10px 30px;
+  /* background-color: red; */
+  font-size: 18px;
+}
+.quetion .icon
+{
+  width: 5%;
+  height: inherit;
+  /* background-color: lightblue; */
+  font-size: 20px;
+  padding: 8px 20px;
+}
+
+
+
+
+
+.answer
+{
+  background-color: white;
+  padding: 15px 30px;
+  border-bottom: 1px solid black;
+}
+
